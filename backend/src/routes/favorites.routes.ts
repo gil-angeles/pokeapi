@@ -37,8 +37,6 @@ router.get("/:code", async (req, res) => {
 
   const list = await getFavoritesByCode(code);
 
-  console.log("FOUND:", list);
-
   if (!list) {
     return res.status(404).json({ error: "Not found" });
   }

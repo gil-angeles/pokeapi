@@ -25,7 +25,9 @@ Fullstack application built with:
 
 From the project root:
 
+```bash
 npm run setup
+```
 
 This command will:
 
@@ -40,7 +42,9 @@ This command will:
 
 From the project root:
 
+```bash
 npm run dev
+```
 
 ---
 
@@ -115,8 +119,55 @@ npm run dev
 - If port 5432 is already in use, update the connection string in backend/.env.
 - If your PostgreSQL user does not have permission to create databases, create the database manually first.
 
-# Tecnologias usadas:
+# Techs used
 
-- React: Top libreria para frontend
-- Vite: Rapido para proyectos ligeros
-- Typescript: Tipado y seguridad
+- React: Top library for frontend, no more to say.
+- Vite: Quick for light projects
+- Typescript: Data integrity
+- React Query: Automatic handle of cache and better error handling
+- Tailwind: Faster and better to understand in code
+- Express: Easy to structure, better for light projects
+- Prisma: Integrates with typescript, automatic migrations, data integrity
+- Zod: Data validation, security
+
+## 🧪 Running Tests
+
+This project contains tests for both frontend and backend.
+
+---
+
+### ▶ Frontend Tests
+
+```bash
+cd frontend
+npm run test
+```
+
+Watch mode:
+
+```bash
+npm run test:watch
+```
+
+With coverage:
+
+```bash
+npm run test:coverage
+```
+
+---
+
+### ▶ Backend Tests
+
+```bash
+cd backend
+npm run test
+```
+
+Watch mode:
+
+```bash
+npm run test:watch
+```
+
+---

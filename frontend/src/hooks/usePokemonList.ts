@@ -49,7 +49,7 @@ export function usePokemonList() {
             id,
             name: p.name,
             image: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`,
-            types: detail.types, // 👈 AQUI
+            types: detail.types,
           };
         }),
       );
