@@ -1,0 +1,12 @@
+{
+  "name": "pokedex",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node setup.mjs",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

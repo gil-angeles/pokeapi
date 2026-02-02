@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pokedex-red: #ec4026;
+  --color-pokedex-deep: #cc0000;
+  --color-pokedex-yellow: #fbdd00;
+  --color-pokedex-white: #f0f0f0;
+  --color-pokedex-charcoal: #565658;
+
+  --color-pokedex-blue: #1d4ed8;
+  --color-pokedex-blue-soft: #1d4ed810;
+
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
